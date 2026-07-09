@@ -256,7 +256,7 @@ img{ max-width: 100%; }
   margin: 0;
 }
 
-.split-section{ padding: 50px var(--section-pad-x); }
+.split-section{ padding: 30px var(--section-pad-x); }
 
 .split-section h2{
   font-size: clamp(26px, 3vw, 36px);
