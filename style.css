@@ -309,7 +309,7 @@ img{ max-width: 100%; }
 
 .stat-item .stat-label{ font-size: 16px; color: var(--body-text); }
 
-.testimonial-section{ padding: 32px var(--section-pad-x); }
+.testimonial-section{ padding: 32px var(--section-pad-x);   background: var(--bg-light);}
 
 .testimonial-image img{
   width: 100%;
