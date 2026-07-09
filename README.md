@@ -1,63 +1,32 @@
 # Nexcent Landing Page
 
-## Project Overview
+A responsive landing page built for a UI Developer take-home assignment. The goal was to recreate a given Figma design as closely as possible using HTML, CSS, and Bootstrap, while keeping the code clean and easy to follow.
 
-This project is a responsive landing page developed as part of the UI Developer take-home assignment. The implementation is based on the provided Figma design and focuses on delivering a clean, maintainable, and pixel-accurate user interface using modern web technologies.
+Figma reference: https://www.figma.com/proto/7xXNdeCrRNEizqbACKjUIj/Minimal-Landing-Page-Design-%7C-Website-Home-Page-Design-%7C-Agency-Website-UI-Design--Community-?node-id=5-573&p=f&t=IKrLDdY6wCQhR7TR-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A573
 
-The application has been built with an emphasis on responsiveness, code quality, and adherence to front-end development best practices.
+## What's included
 
----
-
-## Assignment Information
-
-**Objective:** Develop the homepage based on the provided Figma design.
-
-**Requirements:**
-
-- Build the homepage using HTML5, CSS3, and Bootstrap.
-- Ensure full responsiveness across desktop, tablet, and mobile devices.
-- Match the provided design as closely as possible.
-- Follow clean, structured, and maintainable coding standards.
-
----
-
-## Design Reference
-
-**Figma Prototype:**
-
-https://www.figma.com/proto/7xXNdeCrRNEizqbACKjUIj/Minimal-Landing-Page-Design-%7C-Website-Home-Page-Design-%7C-Agency-Website-UI-Design--Community-?node-id=5-573&p=f&t=IKrLDdY6wCQhR7TR-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A573
-
----
-
-## Features
-
-- Responsive navigation bar
+- Navigation bar (responsive, collapses on mobile)
 - Hero section
-- Clients section
+- Clients strip
 - Community management section
 - Feature highlights
-- Statistics section
-- Customer testimonials
-- Blog section
-- Call-to-action section
-- Footer section
-- Mobile, tablet, and desktop compatibility
+- Stats section
+- Testimonials
+- Blog preview
+- CTA section
+- Footer
 
----
+Tested across desktop, tablet, and mobile breakpoints.
 
-## Tech Stack
+## Built with
 
 - HTML5
 - CSS3
 - Bootstrap 5
 - Bootstrap Icons
 
----
-
-## Project Structure
-
-```text
-project-root/
+## Folder structure
 
 ├── assets/
 │   ├── images/
@@ -66,48 +35,22 @@ project-root/
 ├── index.html
 ├── style.css
 └── README.md
-```
 
----
-
-## Setup Instructions
-
-### Clone the repository
+## Running it locally
 
 ```bash
 git clone <repository-url>
-```
-
-### Navigate to the project directory
-
-```bash
 cd <project-folder>
 ```
 
-### Run the project
+Then just open `index.html` in a browser — no build step needed.
 
-Open the `index.html` file in your preferred browser.
+## Notes on the approach
 
----
+I mainly relied on Bootstrap's grid for the responsive layout instead of writing custom media queries everywhere, since it kept things consistent across breakpoints. Tried to keep the HTML semantic and split the CSS logically so it's not a pain to go back and tweak sections later.
 
-## Development Approach
-
-- Implemented the UI based on the provided Figma design.
-- Utilized Bootstrap's grid system to ensure responsiveness.
-- Followed semantic HTML and organized CSS practices.
-- Focused on reusable and maintainable code.
-- Optimized layouts for different screen sizes.
-
----
+Most of the effort went into matching spacing, typography, and section proportions to the Figma file rather than just getting something "close enough."
 
 ## Author
 
-**Athulya N**
-
-This project was developed as part of the UI Developer assignment submission process.
-
----
-
-## Submission
-
-The source code for this assignment has been submitted for evaluation as requested in the assignment instructions.
+Athulya N
