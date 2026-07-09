@@ -569,3 +569,14 @@ img{ max-width: 100%; }
   .navbar-nexcent .navbar-brand{ font-size: 20px; }
   .stat-item{ gap: 12px; }
 }
+
+@media (max-width: 768px){
+  .clients-strip{
+    gap: 24px;
+    justify-content:left;
+  }
+
+  .clients-strip img{
+    height: 40px;
+  }
+}
