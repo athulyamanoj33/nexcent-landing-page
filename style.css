@@ -361,7 +361,7 @@ img{ max-width: 100%; }
   margin-left: auto;
   white-space: nowrap;
 }
-.blog-section{ padding: 70px 0; text-align: center; }
+.blog-section{ padding: 50px 0; text-align: center; }
 
 .blog-section h2{ font-size: clamp(26px, 3vw, 36px); color: var(--heading); font-weight: 600; line-height: 1.25; }
 
@@ -426,7 +426,7 @@ img{ max-width: 100%; }
 }
 
 .cta-section{
-  padding: 60px var(--section-pad-x);
+  padding: 40px var(--section-pad-x);
   text-align: center;
 }
 
@@ -439,7 +439,7 @@ img{ max-width: 100%; }
   margin: 0 auto;
 }
 
-.cta-section .btn{ margin-top: 28px; }
+.cta-section .btn{ margin-top: 20px; }
 
 .footer{
     background:#263238;
