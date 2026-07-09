@@ -320,9 +320,9 @@ img{ max-width: 100%; }
   margin: 0 auto;
   display: block;
 }
-.testimonial-quote p{ font-size: 16px; font-weight: 500; color: var(--body-text); }
+.testimonial-content p{ font-size: 16px; font-weight: 500; color: var(--body-text); }
 
-.testimonial-quote .author-name{
+.testimonial-content .author-name{
   color: var(--green);
   font-family: var(--font-heading);
   font-weight: 600;
@@ -331,7 +331,7 @@ img{ max-width: 100%; }
   line-height: 28px;
   display: block;
 }
-.testimonial-quote .author-org{ font-size: 16px; line-height: 24px; font-weight: 400; color: #89939E; }
+.testimonial-content .author-org{ font-size: 16px; line-height: 24px; font-weight: 400; color: #89939E; }
 
 .testimonial-logos{
   display: flex;
