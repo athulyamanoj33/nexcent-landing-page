@@ -77,13 +77,11 @@ img{ max-width: 100%; }
 
 .navbar-nexcent{
   background: var(--bg-light);
-  padding: 15px 0 65px;
-  
-
+  padding: 20px 0 65px;
 }
 
 .navbar-nexcent .navbar-brand{
-  font-family: var(--font-heading);
+  color: #18191F;
   font-weight: 700;
   font-size: 30px;
   color: #263238;
@@ -98,7 +96,7 @@ img{ max-width: 100%; }
   line-height: 24px;
   color: var(--heading);
   font-size: 16px;
-  padding: 8px 18px !important;
+  padding: 8px 28px !important;
 }
 
 .navbar-nexcent .nav-link.active{
@@ -308,6 +306,7 @@ img{ max-width: 100%; }
   color: var(--heading);
   display: block;
 }
+
 .stat-item .stat-label{ font-size: 16px; color: var(--body-text); }
 
 .testimonial-section{ padding: 32px var(--section-pad-x); }
@@ -342,6 +341,17 @@ img{ max-width: 100%; }
   flex-wrap: wrap;
 }
 .testimonial-logos img{ height: 48px; }
+
+.author-name{
+  color: var(--green);
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  line-height: 28px;
+  display:block;
+}
 
 .meet-all-link{
   color: var(--green);
